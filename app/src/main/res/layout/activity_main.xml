@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Want to Order a Pizza ?" />
+
+
+    <TextView
+        android:id="@+id/Crust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crust ?" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="295dp"
+        android:layout_height="106dp">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:text="Thin Crust" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:text="Thick Crust" />
+
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:text="Spicy" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Toppings"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="Toppings ?" />
+
+    <CheckBox
+        android:id="@+id/extrachesse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extra Cheese" />
+
+    <CheckBox
+        android:id="@+id/tomatoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomatoes" />
+
+    <CheckBox
+        android:id="@+id/onion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Onions" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address" />
+    <EditText
+        android:id="@+id/addresstext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="" />
+    <TextView
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number" />
+    <EditText
+        android:id="@+id/phonenumbertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/confirmyourorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Confirm your Order" />
+
+</LinearLayout>
